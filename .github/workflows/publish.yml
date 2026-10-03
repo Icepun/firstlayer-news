@@ -1,4 +1,4 @@
-# Duyuru dosyası her değiştiğinde önce denetlenir; hatalıysa yayına çıkmaz, oyuncular son doğru sürümü görmeye devam eder.
+# The file is checked on every change. If it has errors it is not published, and players keep seeing the last valid version.
 name: Publish announcements
 
 on:

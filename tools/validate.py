@@ -1,6 +1,6 @@
-"""Duyuru dosyasını oyunun kurallarıyla denetler. Hata varsa çıkış kodu 1 olur ve GitHub yayını durdurur.
+"""Checks the announcements file against the game's rules. Exits with code 1 on errors, which stops the GitHub publish.
 
-Kullanım:  python tools/validate.py site/first-layer/announcements.json
+Usage:  python tools/validate.py site/first-layer/announcements.json
 """
 import json
 import sys
