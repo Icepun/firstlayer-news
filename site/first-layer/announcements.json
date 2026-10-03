@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "announcements": [
+    {
+      "id": "welcome",
+      "pinned": true,
+      "date": "2026-10-04",
+      "category": "Welcome",
+      "title": "Welcome to the workshop",
+      "summary": "Set up your printer, slice a model and sell your first print. Your garage is waiting.",
+      "body": "First Layer starts in a small garage with one printer and a lot of ideas.\n\nBuy models, slice them, print them, paint them and pack them for your customers. Every sale brings you closer to a bigger workshop.\n\nWe would love to see your prints and hear what you think. Come say hi on our Discord.",
+      "link": "https://discord.gg/ANR3mNuerB",
+      "linkLabel": "Join our Discord",
+      "tr": {
+        "category": "Hoş geldin",
+        "title": "Atölyeye hoş geldin",
+        "summary": "Yazıcını kur, bir model dilimle ve ilk baskını sat. Garajın seni bekliyor.",
+        "body": "First Layer tek bir yazıcı ve bolca fikirle küçük bir garajda başlıyor.\n\nModel satın al, dilimle, bas, boya ve müşterilerin için paketle. Her satış seni daha büyük bir atölyeye yaklaştırır.\n\nBaskılarını görmeyi ve fikirlerini duymayı çok isteriz. Discord'da bize merhaba de.",
+        "linkLabel": "Discord'a katıl"
+      }
+    },
+    {
+      "id": "build-2026-10",
+      "date": "2026-10-04",
+      "category": "Update",
+      "title": "What's new in this build",
+      "summary": "A new slicer look, a redesigned PrintHouse and Filamento, and filament brands that really differ.",
+      "body": "• Slicer: a clean digital plate, smoother previews and a print playback that fits any job.\n\n• PrintHouse: compare printers by speed, build volume, reliability and print quality. More machines are on the way.\n\n• Filamento: Filax, Nordfil and Prisma filaments, each with its own price and nozzle wear.\n\n• FormaHub: browse more models at once and see how long each one takes on your printers.\n\n• Prices for models, filament and printers have been rebalanced.",
+      "tr": {
+        "category": "Güncelleme",
+        "title": "Bu sürümde neler var",
+        "summary": "Yeni dilimleyici görünümü, yenilenen PrintHouse ve Filamento, gerçekten farklı filament markaları.",
+        "body": "• Dilimleyici: sade dijital tabla, daha pürüzsüz önizleme ve her işe uyan baskı oynatma.\n\n• PrintHouse: yazıcıları hız, baskı hacmi, güvenilirlik ve baskı kalitesiyle karşılaştır. Yeni makineler yolda.\n\n• Filamento: her biri kendi fiyatı ve nozul aşınmasıyla Filax, Nordfil ve Prisma filamentleri.\n\n• FormaHub: aynı anda daha çok model gör, her birinin yazıcında ne kadar sürdüğünü öğren.\n\n• Model, filament ve yazıcı fiyatları yeniden dengelendi."
+      }
+    },
+    {
+      "id": "roadmap-2026-10",
+      "date": "2026-10-03",
+      "category": "Roadmap",
+      "title": "What we're working on",
+      "summary": "More printers, a bigger workshop and Turkish and Polish translations are on the way.",
+      "body": "• More printers: the machines marked Coming soon in PrintHouse will join the shop one by one.\n\n• A bigger workshop: when the garage gets too small, you will be able to move to a space with room for more machines.\n\n• Languages: Turkish and Polish are next.\n\nTell us what you would like to see next on our Discord.",
+      "link": "https://discord.gg/ANR3mNuerB",
+      "linkLabel": "Share your ideas",
+      "tr": {
+        "category": "Yol haritası",
+        "title": "Üzerinde çalıştıklarımız",
+        "summary": "Daha çok yazıcı, daha büyük bir atölye ve Türkçe ile Lehçe çeviriler yolda.",
+        "body": "• Daha çok yazıcı: PrintHouse'ta Yakında yazan makineler mağazaya birer birer gelecek.\n\n• Daha büyük bir atölye: garaj küçük gelmeye başlayınca daha çok makineye yer olan bir mekâna taşınabileceksin.\n\n• Diller: sırada Türkçe ve Lehçe var.\n\nSırada ne görmek istediğini Discord'da bize anlat.",
+        "linkLabel": "Fikrini paylaş"
+      }
+    }
+  ]
+}
