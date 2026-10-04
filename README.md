@@ -86,6 +86,40 @@ Formatting tags (`<b>` etc.) are not applied; they show as plain text. Unknown f
 
 Images can live in this repository too: `site/first-layer/images/` → `https://news.vitrumgames.com/first-layer/images/...`
 
+## The print on the workbench
+
+Behind the main menu, the printer on the workbench prints a real catalog product. The optional `showcase` list in the same file picks which product and which filament color:
+
+```json
+"showcase": [
+  { "model": "HW-001", "color": "#F07A1C", "theme": "halloween", "start": "2026-10-01", "end": "2026-11-01" },
+  { "model": "BM-055", "color": "#2BB5A6" }
+]
+```
+
+| Field | Required | Description |
+| --- | --- | --- |
+| `model` | yes | Catalog ID of the product. |
+| `color` | | Filament color, e.g. `#2BB5A6`. Without it, the product's own color is used. |
+| `theme` | | Seasonal decorations in the workshop. Available: `halloween` (glowing jack-o'-lantern, small printed pumpkins, purple moonlight). |
+| `start` / `end` | | Same as for announcements. The game uses the **first** line whose dates match, so put seasonal lines above the everyday one. |
+
+Products in the current build:
+
+| ID | Product | Default color |
+| --- | --- | --- |
+| `HW-001` | Jack-o'-Lantern (Halloween, not sold in the game) | `#F07A1C` |
+| `BM-055` | Twisted Tower Vase | `#2BB5A6` |
+| `BM-026` | Coffee-Hugging Ghost | `#EDEDE6` |
+| `BM-105` | Turbo Fox | `#F07829` |
+| `BM-109` | Piko the Cargo Astronaut | `#5CA8E8` |
+| `BM-021` | Capybara with Orange | `#A8734C` |
+| `BM-031` | Stone Gargoyle | `#8A8F96` |
+
+- An unknown ID, or no `showcase` list, prints the Twisted Tower Vase.
+- The menu waits up to 1.5 seconds for the server file, so online players see a change as soon as they open the game. Offline players keep the copy saved on their device; schedule seasonal lines a few days ahead with `start`, so they are already on players' devices when the day comes.
+- Adding a new product needs a game update: add it in Unity to `Assets/6_SO/UI/MenuShowcase.asset`, run **Tools → Printing Sim → Main Menu → Bake Showcase Prints**, and add its ID to `SHOWCASE_MODELS` in `tools/validate.py`.
+
 ## Tips
 
 - **Remove:** delete the announcement from the list, or give it an `end` date.
