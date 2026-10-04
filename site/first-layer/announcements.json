@@ -70,5 +70,9 @@
         "linkLabel": "Podziel się pomysłami"
       }
     }
+  ],
+  "showcase": [
+    { "model": "HW-001", "color": "#F07A1C", "theme": "halloween", "start": "2026-10-01", "end": "2026-11-01" },
+    { "model": "BM-055", "color": "#2BB5A6" }
   ]
 }
