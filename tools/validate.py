@@ -13,6 +13,12 @@ LIMITS = {"category": 32, "title": 120, "summary": 280, "body": 8000, "linkLabel
 KNOWN = {"id", "pinned", "date", "category", "title", "summary", "body", "image", "link", "linkLabel", "start", "end",
          "minVersion", "maxVersion", "tr", "pl"}
 LANGUAGES = ("tr", "pl")
+# Products the main menu printer can print in the current game build (Assets/6_SO/UI/MenuShowcase.asset).
+SHOWCASE_MODELS = {"HW-001", "BM-055", "BM-026", "BM-105", "BM-109", "BM-021", "BM-031"}
+SHOWCASE_KNOWN = {"model", "color", "theme", "start", "end"}
+# Workshop decorations the current game build has (Menu Workshop > MenuWorkshopThemes).
+SHOWCASE_THEMES = {"halloween"}
+HEX_DIGITS = set("0123456789abcdefABCDEF")
 
 
 def parse_date(value):
@@ -27,6 +33,46 @@ def parse_date(value):
 def is_https(value):
     parsed = urlparse(value.strip())
     return parsed.scheme == "https" and bool(parsed.netloc)
+
+
+def is_color(value):
+    text = value.strip()
+    return text.startswith("#") and len(text) in (4, 7, 9) and all(c in HEX_DIGITS for c in text[1:])
+
+
+def check_showcase(data, errors, warnings):
+    """The "showcase" list picks the product the printer prints in the main menu."""
+    items = data.get("showcase")
+    if items is None:
+        return
+    if not isinstance(items, list):
+        errors.append('"showcase" must be a list.')
+        return
+    for index, item in enumerate(items, 1):
+        where = f"showcase #{index}"
+        if not isinstance(item, dict):
+            errors.append(f"{where}: not an object.")
+            continue
+        model = str(item.get("model", "")).strip()
+        if not model:
+            errors.append(f'{where}: missing "model", e.g. "BM-055".')
+        elif model not in SHOWCASE_MODELS:
+            warnings.append(f'{where}: "{model}" is not in this game build; players see the default print instead.')
+        for key in item:
+            if key not in SHOWCASE_KNOWN:
+                warnings.append(f'{where}: unknown field "{key}" is ignored by the game.')
+        theme = str(item.get("theme", "")).strip().lower()
+        if theme and theme not in SHOWCASE_THEMES:
+            warnings.append(f'{where}: theme "{theme}" is not in this game build; the workshop keeps its usual look.')
+        if "color" in item and not is_color(str(item["color"])):
+            errors.append(f'{where}: "color" must look like #2BB5A6.')
+        for key in ("start", "end"):
+            if key in item and parse_date(str(item[key]).strip()) is None:
+                errors.append(f"{where}: \"{key}\" must look like 2026-10-04 or 2026-10-04T18:00:00Z.")
+        if "start" in item and "end" in item:
+            start, end = parse_date(str(item["start"])), parse_date(str(item["end"]))
+            if start and end and end < start:
+                errors.append(f'{where}: "end" is before "start".')
 
 
 def main(path):
@@ -80,6 +126,7 @@ def main(path):
             if start and end and end < start:
                 errors.append(f"{where}: \"end\" is before \"start\".")
 
+    check_showcase(data, errors, warnings)
     for line in warnings:
         print("WARN   " + line)
     for line in errors:
