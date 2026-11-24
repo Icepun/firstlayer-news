@@ -75,6 +75,91 @@ def check_showcase(data, errors, warnings):
                 errors.append(f'{where}: "end" is before "start".')
 
 
+NOTE_KNOWN = {"version", "date", "title", "changes", "tr", "pl"}
+CHANGE_TYPES = {"new", "improved", "fixed"}
+ROADMAP_KNOWN = {"id", "title", "summary", "status", "version", "tr", "pl"}
+ROADMAP_STATUSES = {"planned", "progress", "released"}
+
+
+def check_patch_notes(data, errors, warnings):
+    """The "patchNotes" list fills the main menu's patch notes window, newest version first."""
+    notes = data.get("patchNotes")
+    if notes is None:
+        return
+    if not isinstance(notes, list):
+        errors.append('"patchNotes" must be a list.')
+        return
+    versions = set()
+    for index, note in enumerate(notes, 1):
+        where = f"patchNotes #{index}"
+        if not isinstance(note, dict):
+            errors.append(f"{where}: not an object.")
+            continue
+        version = str(note.get("version", "")).strip()
+        where = f"patchNotes #{index} ({version or 'no version'})"
+        if not version:
+            errors.append(f'{where}: missing "version", e.g. "0.5.0".')
+        elif version in versions:
+            errors.append(f'{where}: "version" is used twice.')
+        versions.add(version)
+        for key in note:
+            if key not in NOTE_KNOWN:
+                warnings.append(f'{where}: unknown field "{key}" is ignored by the game.')
+        if "date" in note and parse_date(str(note["date"]).strip()) is None:
+            errors.append(f'{where}: "date" must look like 2026-10-04.')
+        changes = note.get("changes")
+        if not isinstance(changes, list) or not changes:
+            errors.append(f'{where}: needs a "changes" list.')
+            continue
+        for number, change in enumerate(changes, 1):
+            if not isinstance(change, dict) or not str(change.get("text", "")).strip():
+                errors.append(f'{where}: change {number} needs a "text".')
+            elif str(change.get("type", "new")).strip().lower() not in CHANGE_TYPES:
+                warnings.append(f'{where}: change {number} type should be new, improved or fixed; the game shows it as new.')
+        for lang in LANGUAGES:
+            block = note.get(lang)
+            if not isinstance(block, dict):
+                continue
+            translated = block.get("changes")
+            if translated is not None and (not isinstance(translated, list) or len(translated) != len(changes)):
+                warnings.append(f'{where}: "{lang}.changes" should list {len(changes)} lines in the same order as "changes".')
+
+
+def check_roadmap(data, errors, warnings):
+    """The "roadmap" list fills the main menu's player roadmap: planned, in progress and released updates."""
+    items = data.get("roadmap")
+    if items is None:
+        return
+    if not isinstance(items, list):
+        errors.append('"roadmap" must be a list.')
+        return
+    ids = set()
+    for index, item in enumerate(items, 1):
+        where = f"roadmap #{index}"
+        if not isinstance(item, dict):
+            errors.append(f"{where}: not an object.")
+            continue
+        item_id = str(item.get("id", "")).strip()
+        where = f"roadmap #{index} ({item_id or 'no id'})"
+        if not str(item.get("title", "")).strip():
+            errors.append(f'{where}: missing "title".')
+        if item_id and item_id in ids:
+            errors.append(f'{where}: "id" is used twice.')
+        ids.add(item_id)
+        for key in item:
+            if key not in ROADMAP_KNOWN:
+                warnings.append(f'{where}: unknown field "{key}" is ignored by the game.')
+        status = str(item.get("status", "planned")).strip().lower()
+        if status not in ROADMAP_STATUSES:
+            warnings.append(f'{where}: "status" should be planned, progress or released; the game shows it as planned.')
+        texts = [("", item)] + [(f"{lang}.", item[lang]) for lang in LANGUAGES if isinstance(item.get(lang), dict)]
+        for prefix, block in texts:
+            for key, limit in (("title", 80), ("summary", 220)):
+                value = str(block.get(key, ""))
+                if len(value) > limit:
+                    warnings.append(f'{where}: "{prefix}{key}" is {len(value)} characters; the game shortens it to {limit}.')
+
+
 def main(path):
     errors, warnings = [], []
     raw = open(path, "rb").read()
@@ -127,6 +212,8 @@ def main(path):
                 errors.append(f"{where}: \"end\" is before \"start\".")
 
     check_showcase(data, errors, warnings)
+    check_patch_notes(data, errors, warnings)
+    check_roadmap(data, errors, warnings)
     for line in warnings:
         print("WARN   " + line)
     for line in errors:

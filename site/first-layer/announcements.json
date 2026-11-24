@@ -25,49 +25,132 @@
         "body": "First Layer zaczyna się w małym garażu z jedną drukarką i masą pomysłów.\n\nKupuj modele, krój je, drukuj, maluj i pakuj dla klientów. Każda sprzedaż przybliża cię do większego warsztatu.\n\nChętnie zobaczymy twoje wydruki i poznamy twoje zdanie. Wpadnij przywitać się na naszym Discordzie.",
         "linkLabel": "Dołącz do Discorda"
       }
-    },
+    }
+  ],
+  "patchNotes": [
     {
-      "id": "build-2026-10",
-      "date": "2026-10-04",
-      "category": "Update",
-      "title": "What's new in this build",
-      "summary": "A new slicer look, a redesigned PrintHouse and Filamento, and filament brands that really differ.",
-      "body": "• Slicer: a clean digital plate, smoother previews and a print playback that fits any job.\n\n• PrintHouse: compare printers by speed, build volume, reliability and print quality. More machines are on the way.\n\n• Filamento: Filax, Nordfil and Prisma filaments, each with its own price and nozzle wear.\n\n• FormaHub: browse more models at once and see how long each one takes on your printers.\n\n• Prices for models, filament and printers have been rebalanced.",
+      "version": "0.5.0",
+      "date": "2026-11-24",
+      "title": "First public demo",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Start in a small garage with one printer and a tutorial that guides you."
+        },
+        {
+          "type": "new",
+          "text": "Slice models, watch every layer print and ship orders before the deadline."
+        },
+        {
+          "type": "new",
+          "text": "Buy new printers and filament as your business grows."
+        },
+        {
+          "type": "new",
+          "text": "Fix broken printer heads at the repair bench."
+        },
+        {
+          "type": "new",
+          "text": "Take a loan, rent your first workshop and hire a worker to run it."
+        },
+        {
+          "type": "new",
+          "text": "Play in English, Turkish or Polish."
+        }
+      ],
       "tr": {
-        "category": "Güncelleme",
-        "title": "Bu sürümde neler var",
-        "summary": "Yeni dilimleyici görünümü, yenilenen PrintHouse ve Filamento, gerçekten farklı filament markaları.",
-        "body": "• Dilimleyici: sade dijital tabla, daha pürüzsüz önizleme ve her işe uyan baskı oynatma.\n\n• PrintHouse: yazıcıları hız, baskı hacmi, güvenilirlik ve baskı kalitesiyle karşılaştır. Yeni makineler yolda.\n\n• Filamento: her biri kendi fiyatı ve nozul aşınmasıyla Filax, Nordfil ve Prisma filamentleri.\n\n• FormaHub: aynı anda daha çok model gör, her birinin yazıcında ne kadar sürdüğünü öğren.\n\n• Model, filament ve yazıcı fiyatları yeniden dengelendi."
+        "title": "İlk herkese açık demo",
+        "changes": [
+          "Tek yazıcılı küçük bir garajda, sana yol gösteren bir öğreticiyle başla.",
+          "Modelleri dilimle, her katmanın basılışını izle, siparişleri süresi dolmadan gönder.",
+          "İşin büyüdükçe yeni yazıcılar ve filament al.",
+          "Arızalanan yazıcı kafalarını tamir tezgâhında onar.",
+          "Kredi çek, ilk atölyeni kirala ve onu çalıştıracak birini işe al.",
+          "İngilizce, Türkçe ya da Lehçe oyna."
+        ]
       },
       "pl": {
-        "category": "Aktualizacja",
-        "title": "Co nowego w tej wersji",
-        "summary": "Nowy wygląd slicera, odświeżone PrintHouse i Filamento oraz marki filamentów, które naprawdę się różnią.",
-        "body": "• Slicer: przejrzysty cyfrowy stół, płynniejszy podgląd i odtwarzanie wydruku dopasowane do każdego zadania.\n\n• PrintHouse: porównuj drukarki pod względem prędkości, obszaru roboczego, niezawodności i jakości druku. Kolejne maszyny są w drodze.\n\n• Filamento: filamenty Filax, Nordfil i Prisma, każdy z własną ceną i zużyciem dyszy.\n\n• FormaHub: przeglądaj więcej modeli naraz i sprawdzaj, ile trwa druk każdego z nich na twoich drukarkach.\n\n• Ceny modeli, filamentów i drukarek zostały na nowo zbalansowane."
+        "title": "Pierwsze publiczne demo",
+        "changes": [
+          "Zacznij w małym garażu z jedną drukarką i samouczkiem, który cię poprowadzi.",
+          "Krój modele, patrz, jak drukuje się każda warstwa, i wysyłaj zamówienia przed terminem.",
+          "Kupuj nowe drukarki i filamenty, gdy firma rośnie.",
+          "Naprawiaj zepsute głowice drukarek na stole naprawczym.",
+          "Weź pożyczkę, wynajmij pierwszy warsztat i zatrudnij pracownika, który go poprowadzi.",
+          "Graj po angielsku, turecku lub polsku."
+        ]
+      }
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "player-store",
+      "title": "Your own store",
+      "summary": "Open a shop in town, stock the shelves and serve customers.",
+      "status": "progress",
+      "tr": {
+        "title": "Kendi dükkânın",
+        "summary": "Şehirde dükkân aç, rafları doldur, müşterilere hizmet et."
+      },
+      "pl": {
+        "title": "Własny sklep",
+        "summary": "Otwórz sklep w mieście, zapełnij półki i obsługuj klientów."
       }
     },
     {
-      "id": "roadmap-2026-10",
-      "date": "2026-10-03",
-      "category": "Roadmap",
-      "title": "What we're working on",
-      "summary": "More printers and a bigger workshop are on the way.",
-      "body": "• More printers: the machines marked Coming soon in PrintHouse will join the shop one by one.\n\n• A bigger workshop: when the garage gets too small, you will be able to move to a space with room for more machines.\n\n• Languages: First Layer now speaks Turkish and Polish, with more to come.\n\nTell us what you would like to see next on our Discord.",
-      "link": "https://discord.gg/ANR3mNuerB",
-      "linkLabel": "Share your ideas",
+      "id": "more-printers",
+      "title": "More printers",
+      "summary": "The machines marked Coming soon in PrintHouse join the shop.",
+      "status": "progress",
       "tr": {
-        "category": "Yol haritası",
-        "title": "Üzerinde çalıştıklarımız",
-        "summary": "Daha çok yazıcı ve daha büyük bir atölye yolda.",
-        "body": "• Daha çok yazıcı: PrintHouse'ta Yakında yazan makineler mağazaya birer birer gelecek.\n\n• Daha büyük bir atölye: garaj küçük gelmeye başlayınca daha çok makineye yer olan bir mekâna taşınabileceksin.\n\n• Diller: First Layer artık Türkçe ve Lehçe de konuşuyor; yenileri de gelecek.\n\nSırada ne görmek istediğini Discord'da bize anlat.",
-        "linkLabel": "Fikrini paylaş"
+        "title": "Daha çok yazıcı",
+        "summary": "PrintHouse'ta Yakında yazan makineler mağazaya gelir."
       },
       "pl": {
-        "category": "Plany",
-        "title": "Nad czym pracujemy",
-        "summary": "Więcej drukarek i większy warsztat są w drodze.",
-        "body": "• Więcej drukarek: maszyny oznaczone w PrintHouse jako Wkrótce będą po kolei trafiać do sklepu.\n\n• Większy warsztat: gdy garaż zrobi się za mały, przeniesiesz się do lokalu, w którym zmieści się więcej maszyn.\n\n• Języki: First Layer mówi już po turecku i po polsku, a kolejne są w drodze.\n\nNapisz nam na Discordzie, co chcesz zobaczyć w następnej kolejności.",
-        "linkLabel": "Podziel się pomysłami"
+        "title": "Więcej drukarek",
+        "summary": "Maszyny oznaczone w PrintHouse jako Wkrótce trafią do sklepu."
+      }
+    },
+    {
+      "id": "bigger-workshops",
+      "title": "Bigger workshops",
+      "summary": "Move into larger spaces with room for more machines.",
+      "status": "planned",
+      "tr": {
+        "title": "Daha büyük atölyeler",
+        "summary": "Daha çok makineye yer olan büyük mekânlara taşın."
+      },
+      "pl": {
+        "title": "Większe warsztaty",
+        "summary": "Przeprowadź się do większych lokali z miejscem na więcej maszyn."
+      }
+    },
+    {
+      "id": "more-filaments",
+      "title": "More filament types",
+      "summary": "Print with ABS, TPU, PETG and more.",
+      "status": "planned",
+      "tr": {
+        "title": "Daha çok filament türü",
+        "summary": "ABS, TPU, PETG ve daha fazlasıyla bas."
+      },
+      "pl": {
+        "title": "Więcej rodzajów filamentu",
+        "summary": "Drukuj z ABS, TPU, PETG i nie tylko."
+      }
+    },
+    {
+      "id": "your-models",
+      "title": "Print your own models",
+      "summary": "Load your own print files, then print, sell or display what you make.",
+      "status": "planned",
+      "tr": {
+        "title": "Kendi modelini üret",
+        "summary": "Kendi baskı dosyalarını yükle; ürünlerini bas, sat ya da sergile."
+      },
+      "pl": {
+        "title": "Drukuj własne modele",
+        "summary": "Wczytaj własne pliki do druku, a potem drukuj, sprzedawaj lub wystawiaj swoje produkty."
       }
     }
   ],

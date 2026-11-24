@@ -1,5 +1,7 @@
 # First Layer: main menu announcements
 
+> **Live repository:** https://github.com/Icepun/firstlayer-news. Announcements are edited there; this folder only holds its first version.
+
 The **Workshop News** column on the right of the main menu is driven by a single file on the server. Adding, changing or removing an announcement **does not need a game update**: just change the file.
 
 ```
@@ -119,6 +121,40 @@ Products in the current build:
 - An unknown ID, or no `showcase` list, prints the Twisted Tower Vase.
 - The menu waits up to 1.5 seconds for the server file, so online players see a change as soon as they open the game. Offline players keep the copy saved on their device; schedule seasonal lines a few days ahead with `start`, so they are already on players' devices when the day comes.
 - Adding a new product needs a game update: add it in Unity to `Assets/6_SO/UI/MenuShowcase.asset`, run **Tools → Printing Sim → Main Menu → Bake Showcase Prints**, and add its ID to `SHOWCASE_MODELS` in `tools/validate.py`.
+
+## Patch notes and roadmap
+
+The main menu has two cards under the featured announcement: **Patch notes** and **Roadmap**. Both are filled from the same file, so they change without a game update.
+
+```json
+"patchNotes": [
+  {
+    "version": "0.5.0",
+    "date": "2026-11-24",
+    "title": "Public demo",
+    "changes": [
+      { "type": "new", "text": "A workshop tutorial." },
+      { "type": "improved", "text": "Days last longer." },
+      { "type": "fixed", "text": "Workers no longer get stuck on you." }
+    ],
+    "tr": { "title": "Herkese açık demo", "changes": ["Atölye öğreticisi.", "Günler daha uzun.", "Çalışanlar artık sana takılmıyor."] }
+  }
+],
+"roadmap": [
+  { "id": "more-printers", "title": "More printers", "summary": "New machines join the shop.", "status": "progress" },
+  { "id": "longer-days", "title": "Longer days", "summary": "More time each day.", "status": "released", "version": "0.5.0" }
+]
+```
+
+| Field | Description |
+| --- | --- |
+| `patchNotes` | Newest version **first**. The first one shows on the card; when it changes, players see a dot on the card until they open it. |
+| `type` | `new`, `improved` or `fixed`. The window groups the lines under these headings. |
+| `tr` / `pl` `changes` | The translated lines, in the **same order** as `changes`. |
+| `status` | `planned`, `progress` (in progress) or `released`. The window shows three columns in this order. |
+| `version` (roadmap) | For released items: the version they came out in. |
+
+When a player idea makes it into the plan, add it to `roadmap`; when it ships, set `"status": "released"` and add it to the version's `patchNotes`.
 
 ## Tips
 
