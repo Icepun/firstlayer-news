@@ -58,7 +58,7 @@ To check the file locally: `python tools/validate.py site/first-layer/announceme
 | `linkLabel` | | Text of the link button, e.g. `Join our Discord`. |
 | `start` / `end` | | Publishing window (UTC), e.g. `2026-10-10` or `2026-10-10T18:00:00Z`. An `end` with only a date lasts until the end of that day. The announcement appears and disappears on its own. |
 | `minVersion` / `maxVersion` | | Game versions that see the announcement, e.g. `"maxVersion": "0.1.9"` for an update notice to older versions. |
-| `tr` / `pl` | | Translations of `category`, `title`, `summary`, `body` and `linkLabel`. Empty fields fall back to English. The game picks them by the player's language. |
+| language blocks | | Translations of `category`, `title`, `summary`, `body` and `linkLabel`, one block per language: `tr`, `pl`, `fr`, `de`, `es`, `es_419`, `pt_BR`, `pt_PT`, `it`, `nl`, `da`, `no`, `sv`, `fi`, `cs`, `hu`, `ro`, `id_ID`, `ms`, `vi`, `bg`, `ru`, `uk`, `el`, `th`, `ja`, `ko`, `zh_Hans`, `zh_Hant` (the game's language code with `-` as `_`; Indonesian is `id_ID` because `id` is the announcement's id). Empty fields fall back to English. The game picks them by the player's language. |
 
 Formatting tags (`<b>` etc.) are not applied; they show as plain text. Unknown fields are ignored. The game reads up to 12 announcements.
 
@@ -150,7 +150,7 @@ The main menu has two cards under the featured announcement: **Patch notes** and
 | --- | --- |
 | `patchNotes` | Newest version **first**. The first one shows on the card; when it changes, players see a dot on the card until they open it. |
 | `type` | `new`, `improved` or `fixed`. The window groups the lines under these headings. |
-| `tr` / `pl` `changes` | The translated lines, in the **same order** as `changes`. |
+| language block `changes` | The translated lines, in the **same order** as `changes` (same language keys as announcements). |
 | `status` | `planned`, `progress` (in progress) or `released`. The window shows three columns in this order. |
 | `version` (roadmap) | For released items: the version they came out in. |
 

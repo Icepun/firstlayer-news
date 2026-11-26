@@ -24,6 +24,195 @@
         "summary": "Ustaw drukarkę, pokrój model i sprzedaj swój pierwszy wydruk. Twój garaż czeka.",
         "body": "First Layer zaczyna się w małym garażu z jedną drukarką i masą pomysłów.\n\nKupuj modele, krój je, drukuj, maluj i pakuj dla klientów. Każda sprzedaż przybliża cię do większego warsztatu.\n\nChętnie zobaczymy twoje wydruki i poznamy twoje zdanie. Wpadnij przywitać się na naszym Discordzie.",
         "linkLabel": "Dołącz do Discorda"
+      },
+      "fr": {
+        "category": "Bienvenue",
+        "title": "Bienvenue à l'atelier",
+        "summary": "Installe ton imprimante, découpe un modèle et vends ta première impression. Ton garage t'attend.",
+        "body": "First Layer commence dans un petit garage, avec une seule imprimante et plein d'idées.\n\nAchète des modèles, découpe-les, imprime-les, peins-les et emballe-les pour tes clients. Chaque vente te rapproche d'un atelier plus grand.\n\nOn adorerait voir tes impressions et avoir ton avis. Passe nous dire bonjour sur notre Discord.",
+        "linkLabel": "Rejoins notre Discord"
+      },
+      "de": {
+        "category": "Willkommen",
+        "title": "Willkommen in der Werkstatt",
+        "summary": "Bau deinen Drucker auf, slice ein Modell und verkauf deinen ersten Druck. Deine Garage wartet auf dich.",
+        "body": "First Layer beginnt in einer kleinen Garage mit einem Drucker und jeder Menge Ideen.\n\nKauf Modelle, slice sie, druck sie, bemal sie und verpack sie für deine Kundschaft. Jeder Verkauf bringt dich einer größeren Werkstatt näher.\n\nWir freuen uns darauf, deine Drucke zu sehen und deine Meinung zu hören. Komm auf unserem Discord vorbei und sag Hallo.",
+        "linkLabel": "Tritt unserem Discord bei"
+      },
+      "es": {
+        "category": "Bienvenida",
+        "title": "Te damos la bienvenida al taller",
+        "summary": "Monta tu impresora, lamina un modelo y vende tu primera pieza. Tu garaje te espera.",
+        "body": "First Layer empieza en un pequeño garaje con una sola impresora y muchas ideas.\n\nCompra modelos, lamínalos, imprímelos, píntalos y embálalos para tus clientes. Cada venta te acerca a un taller más grande.\n\nNos encantaría ver tus piezas y saber qué opinas. Pásate a saludarnos en nuestro Discord.",
+        "linkLabel": "Únete a nuestro Discord"
+      },
+      "es_419": {
+        "category": "Bienvenida",
+        "title": "Te damos la bienvenida al taller",
+        "summary": "Instala tu impresora, lamina un modelo y vende tu primera impresión. Tu garaje te espera.",
+        "body": "First Layer empieza en un pequeño garaje con una sola impresora y muchas ideas.\n\nCompra modelos, lamínalos, imprímelos, píntalos y empácalos para tus clientes. Cada venta te acerca a un taller más grande.\n\nNos encantaría ver tus impresiones y saber qué opinas. Pasa a saludarnos en nuestro Discord.",
+        "linkLabel": "Únete a nuestro Discord"
+      },
+      "pt_BR": {
+        "category": "Boas-vindas",
+        "title": "Boas-vindas à oficina",
+        "summary": "Monte sua impressora, fatie um modelo e venda sua primeira impressão — sua garagem está esperando.",
+        "body": "First Layer começa em uma pequena garagem, com uma impressora e muitas ideias.\n\nCompre modelos, fatie, imprima, pinte e embale tudo para seus clientes. Cada venda deixa você mais perto de uma oficina maior.\n\nAdoraríamos ver suas impressões e saber o que você acha. Venha dar um oi no nosso Discord.",
+        "linkLabel": "Entre no nosso Discord"
+      },
+      "pt_PT": {
+        "category": "Boas-vindas",
+        "title": "Boas-vindas à oficina",
+        "summary": "Prepara a impressora, fatia um modelo e vende a tua primeira impressão. A garagem está à tua espera.",
+        "body": "First Layer começa numa pequena garagem, com uma só impressora e muitas ideias.\n\nCompra modelos, fatia-os, imprime-os, pinta-os e embala-os para os teus clientes. Cada venda aproxima-te de uma oficina maior.\n\nAdorávamos ver as tuas impressões e saber o que achas. Vem dizer olá no nosso Discord.",
+        "linkLabel": "Junta-te ao nosso Discord"
+      },
+      "it": {
+        "category": "Benvenuti",
+        "title": "Ti diamo il benvenuto in laboratorio",
+        "summary": "Installa la stampante, fai lo slicing di un modello e vendi la tua prima stampa. Il tuo garage ti aspetta.",
+        "body": "First Layer inizia in un piccolo garage, con una stampante e tante idee.\n\nCompra modelli, passali allo slicer, stampali, dipingili e imballali per i tuoi clienti. Ogni vendita ti avvicina a un laboratorio più grande.\n\nCi piacerebbe tanto vedere le tue stampe e sapere cosa ne pensi. Passa a salutarci sul nostro Discord.",
+        "linkLabel": "Unisciti al nostro Discord"
+      },
+      "nl": {
+        "category": "Welkom",
+        "title": "Welkom in de werkplaats",
+        "summary": "Installeer je printer, slice een model en verkoop je eerste print. Je garage wacht op je.",
+        "body": "First Layer begint in een kleine garage met één printer en een hoop ideeën.\n\nKoop modellen, slice ze, print ze, beschilder ze en pak ze in voor je klanten. Elke verkoop brengt je dichter bij een grotere werkplaats.\n\nWe zijn benieuwd naar je prints en naar wat je ervan vindt. Kom gedag zeggen op onze Discord.",
+        "linkLabel": "Kom naar onze Discord"
+      },
+      "da": {
+        "category": "Velkommen",
+        "title": "Velkommen til værkstedet",
+        "summary": "Sæt din printer op, slice en model, og sælg dit første print. Din garage venter.",
+        "body": "First Layer begynder i en lille garage med én printer og masser af idéer.\n\nKøb modeller, slice dem, print dem, mal dem, og pak dem til dine kunder. Hvert salg bringer dig tættere på et større værksted.\n\nVi vil rigtig gerne se dine prints og høre, hvad du synes. Kig forbi, og sig hej på vores Discord.",
+        "linkLabel": "Kom med på vores Discord"
+      },
+      "no": {
+        "category": "Velkommen",
+        "title": "Velkommen til verkstedet",
+        "summary": "Sett opp printeren, slice en modell og selg din første utskrift. Garasjen venter på deg.",
+        "body": "First Layer begynner i en liten garasje med én printer og massevis av ideer.\n\nKjøp modeller, slice dem, print dem, mal dem og pakk dem til kundene dine. Hvert salg tar deg nærmere et større verksted.\n\nVi vil gjerne se utskriftene dine og høre hva du synes. Kom og si hei til oss på Discord.",
+        "linkLabel": "Bli med på Discord"
+      },
+      "sv": {
+        "category": "Välkommen",
+        "title": "Välkommen till verkstaden",
+        "summary": "Installera din skrivare, slica en modell och sälj din första utskrift. Garaget väntar.",
+        "body": "First Layer börjar i ett litet garage med en skrivare och massor av idéer.\n\nKöp modeller, slica, skriv ut, måla och packa dem åt dina kunder. Varje försäljning tar dig närmare en större verkstad.\n\nVi vill jättegärna se dina utskrifter och höra vad du tycker. Kom och säg hej på vår Discord.",
+        "linkLabel": "Gå med i vår Discord"
+      },
+      "fi": {
+        "category": "Tervetuloa",
+        "title": "Tervetuloa pajaan",
+        "summary": "Ota tulostimesi käyttöön, viipaloi malli ja myy ensimmäinen tulosteesi. Autotallisi odottaa.",
+        "body": "First Layer alkaa pienestä autotallista, jossa on yksi tulostin ja paljon ideoita.\n\nOsta malleja, viipaloi ne, tulosta, maalaa ja pakkaa ne asiakkaillesi. Jokainen myynti vie sinua lähemmäs isompaa pajaa.\n\nHaluaisimme kovasti nähdä tulosteesi ja kuulla, mitä mieltä olet. Tule moikkaamaan meitä Discordiin.",
+        "linkLabel": "Liity Discordiimme"
+      },
+      "cs": {
+        "category": "Vítej",
+        "title": "Vítej v dílně",
+        "summary": "Zprovozni tiskárnu, naslicuj model a prodej první výtisk – tvoje garáž už čeká.",
+        "body": "First Layer začíná v malé garáži s jednou tiskárnou a spoustou nápadů.\n\nKupuj modely, slicuj je, tiskni, barvi a bal je pro své zákazníky. Každý prodej tě posune blíž k větší dílně.\n\nMoc rádi uvidíme tvoje výtisky a uslyšíme, co na hru říkáš. Přijď nás pozdravit na náš Discord.",
+        "linkLabel": "Přidej se na náš Discord"
+      },
+      "hu": {
+        "category": "Köszöntő",
+        "title": "Üdv a műhelyben",
+        "summary": "Állítsd üzembe a nyomtatót, szeletelj egy modellt, és add el az első nyomatodat. Vár a garázsod.",
+        "body": "A First Layer egy kis garázsban kezdődik, egyetlen nyomtatóval és rengeteg ötlettel.\n\nVegyél modelleket, szeleteld, nyomtasd ki, fesd ki és csomagold be őket a vásárlóidnak. Minden eladással közelebb kerülsz egy nagyobb műhelyhez.\n\nSzívesen látnánk a nyomataidat, és kíváncsiak vagyunk a véleményedre. Gyere, köszönj be a Discordunkon.",
+        "linkLabel": "Csatlakozz a Discordunkhoz"
+      },
+      "ro": {
+        "category": "Bun venit",
+        "title": "Bun venit în atelier",
+        "summary": "Instalează-ți imprimanta, feliază un model și vinde primul print. Garajul tău te așteaptă.",
+        "body": "First Layer începe într-un garaj mic, cu o singură imprimantă și o grămadă de idei.\n\nCumpără modele, feliază-le, printează-le, pictează-le și ambalează-le pentru clienții tăi. Fiecare vânzare te aduce mai aproape de un atelier mai mare.\n\nNe-ar plăcea mult să-ți vedem printurile și să aflăm ce părere ai. Treci să ne saluți pe Discord.",
+        "linkLabel": "Vino pe Discord"
+      },
+      "id_ID": {
+        "category": "Selamat datang",
+        "title": "Selamat datang di bengkel",
+        "summary": "Pasang printermu, slice sebuah model, lalu jual hasil cetak pertamamu. Garasimu sudah menunggu.",
+        "body": "First Layer dimulai di sebuah garasi kecil dengan satu printer dan segudang ide.\n\nBeli model, slice, cetak, cat, lalu kemas semuanya untuk pelangganmu. Setiap penjualan membawamu lebih dekat ke bengkel yang lebih besar.\n\nKami ingin sekali melihat hasil cetakmu dan mendengar pendapatmu. Mampir dan sapa kami di Discord.",
+        "linkLabel": "Gabung ke Discord kami"
+      },
+      "ms": {
+        "category": "Selamat datang",
+        "title": "Selamat datang ke bengkel",
+        "summary": "Pasang pencetak, slice model dan jual cetakan pertama anda. Garaj anda sedang menanti.",
+        "body": "First Layer bermula di sebuah garaj kecil dengan satu pencetak dan banyak idea.\n\nBeli model, kemudian slice, cetak, cat dan bungkus untuk pelanggan anda. Setiap jualan membawa anda lebih dekat kepada bengkel yang lebih besar.\n\nKami teringin melihat cetakan anda dan mendengar pendapat anda. Singgah dan sapa kami di Discord.",
+        "linkLabel": "Sertai Discord kami"
+      },
+      "vi": {
+        "category": "Chào mừng",
+        "title": "Chào mừng đến xưởng",
+        "summary": "Lắp đặt máy in, cắt lớp một mô hình và bán bản in đầu tiên. Gara đang chờ bạn.",
+        "body": "First Layer bắt đầu trong một gara nhỏ với một máy in và thật nhiều ý tưởng.\n\nMua mô hình, cắt lớp, in, sơn rồi đóng gói cho khách hàng. Mỗi lượt bán lại đưa bạn tiến thêm một bước tới xưởng lớn hơn.\n\nChúng tôi rất muốn được xem bản in của bạn và nghe bạn chia sẻ cảm nhận. Ghé Discord của chúng tôi để chào một tiếng nhé.",
+        "linkLabel": "Tham gia Discord"
+      },
+      "bg": {
+        "category": "Добре дошли",
+        "title": "Добре дошли в работилницата",
+        "summary": "Подготви принтера, слайсни модел и продай първия си принт. Гаражът те чака.",
+        "body": "First Layer започва в малък гараж с един принтер и куп идеи.\n\nКупувай модели, слайсвай ги, печатай ги, боядисвай ги и ги опаковай за клиентите си. Всяка продажба те доближава до по-голяма работилница.\n\nМного ще се радваме да видим принтовете ти и да чуем какво мислиш. Отбий се в нашия Discord и ни кажи здрасти.",
+        "linkLabel": "Ела в нашия Discord"
+      },
+      "ru": {
+        "category": "Добро пожаловать",
+        "title": "Добро пожаловать в мастерскую",
+        "summary": "Установи принтер, нарежь модель и продай первый отпечаток. Твой гараж ждёт.",
+        "body": "First Layer начинается в маленьком гараже с одним принтером и кучей идей.\n\nПокупай модели, нарезай их, печатай, раскрашивай и упаковывай для покупателей. Каждая продажа приближает тебя к мастерской побольше.\n\nБудем рады увидеть твои отпечатки и узнать твоё мнение. Заходи к нам в Discord поздороваться.",
+        "linkLabel": "Присоединяйся к нашему Discord"
+      },
+      "uk": {
+        "category": "Вітаємо",
+        "title": "Вітаємо в майстерні",
+        "summary": "Встанови принтер, наріж модель і продай свій перший виріб — гараж уже чекає на тебе.",
+        "body": "First Layer починається в маленькому гаражі з одним принтером і купою ідей.\n\nКупуй моделі, нарізай їх, друкуй, розфарбовуй і пакуй для своїх клієнтів. Кожен продаж наближає тебе до більшої майстерні.\n\nМи будемо раді побачити твої вироби й почути, що ти думаєш. Заходь до нас у Discord привітатися.",
+        "linkLabel": "Приєднуйся до нас у Discord"
+      },
+      "el": {
+        "category": "Καλώς ήρθες",
+        "title": "Καλώς ήρθες στο εργαστήριο",
+        "summary": "Στήσε τον εκτυπωτή σου, τεμάχισε ένα μοντέλο και πούλησε την πρώτη σου εκτύπωση. Το γκαράζ σου σε περιμένει.",
+        "body": "Το First Layer ξεκινά σε ένα μικρό γκαράζ με έναν εκτυπωτή και πολλές ιδέες.\n\nΑγόρασε μοντέλα, τεμάχισέ τα, τύπωσέ τα, βάψ' τα και πακετάρισέ τα για τους πελάτες σου. Κάθε πώληση σε φέρνει πιο κοντά σε ένα μεγαλύτερο εργαστήριο.\n\nΘα χαρούμε πολύ να δούμε τις εκτυπώσεις σου και να ακούσουμε τη γνώμη σου. Έλα να πεις ένα γεια στο Discord μας.",
+        "linkLabel": "Μπες στο Discord μας"
+      },
+      "th": {
+        "category": "ยินดี​ต้อนรับ",
+        "title": "ยินดี​ต้อนรับ​สู่​เวิร์กช็อป",
+        "summary": "ติดตั้ง​เครื่องพิมพ์ สไลซ์​โมเดล แล้ว​ขาย​ชิ้นงาน​ชิ้น​แรก โรงรถ​รอ​คุณ​อยู่",
+        "body": "First Layer เริ่มต้น​ใน​โรงรถ​เล็กๆ กับ​เครื่องพิมพ์​หนึ่ง​เครื่อง​และ​ไอเดีย​มากมาย\n\nซื้อ​โมเดล​มา​สไลซ์ พิมพ์ ลงสี และ​แพ็ก​ส่ง​ให้​ลูกค้า ทุก​การขาย​จะ​พา​คุณ​เข้า​ใกล้​เวิร์กช็อป​ที่​ใหญ่​ขึ้น​อีก​ก้าว\n\nเรา​อยาก​เห็น​ชิ้นงาน​และ​ฟัง​ความคิดเห็น​ของ​คุณ​มาก แวะ​มา​ทักทาย​กัน​ที่ Discord ของ​เรา​ได้​เลย",
+        "linkLabel": "เข้าร่วม Discord ของ​เรา"
+      },
+      "ja": {
+        "category": "ようこそ",
+        "title": "工房へようこそ",
+        "summary": "プリンターを設置し、モデルをスライスして、最初の造形物を売りましょう。ガレージが待っています。",
+        "body": "First Layerは、小さなガレージと1台のプリンター、そしてたくさんのアイデアから始まります。\n\nモデルを買って、スライスして、印刷して、塗装して、お客さんのために梱包しましょう。売れるたびに、もっと大きな工房へ近づいていきます。\n\n皆さんの造形物を見たり、感想を聞いたりできるのを楽しみにしています。Discordで気軽に声をかけてください。",
+        "linkLabel": "Discordに参加"
+      },
+      "ko": {
+        "category": "환영",
+        "title": "작업실에 온 걸 환영해요",
+        "summary": "프린터를 설치하고 모델을 슬라이스해서 첫 출력물을 판매해 보세요. 차고가 기다리고 있어요.",
+        "body": "First Layer는 작은 차고에서 프린터 한 대와 넘치는 아이디어로 시작해요.\n\n모델을 구매해 슬라이스하고, 출력하고, 도색한 다음 고객에게 보낼 수 있게 포장하세요. 판매할 때마다 더 큰 작업실에 한 걸음 가까워져요.\n\n직접 만든 출력물도 보고 싶고, 어떻게 생각하는지도 꼭 듣고 싶어요. 저희 Discord에 들러서 인사해 주세요.",
+        "linkLabel": "Discord 참여하기"
+      },
+      "zh_Hans": {
+        "category": "欢迎",
+        "title": "欢迎来到工坊",
+        "summary": "安装打印机，切片模型，卖出你的第一个打印件。车库正等着你呢。",
+        "body": "First Layer的故事从一间小车库开始：一台打印机，满脑子的点子。\n\n购买模型，切片、打印、上色，再为顾客打包。每卖出一件，你离更大的工坊就更近一步。\n\n我们很想看看你的打印件，也想听听你的想法。来我们的Discord打个招呼吧！",
+        "linkLabel": "加入我们的Discord"
+      },
+      "zh_Hant": {
+        "category": "歡迎",
+        "title": "歡迎來到工作室",
+        "summary": "架設列印機、切片模型，賣出你的第一件作品。你的車庫正等著你。",
+        "body": "First Layer 的故事從一間小車庫開始：一台列印機，加上滿滿的點子。\n\n購買模型，切片、列印、上色，再幫顧客打包好。每一筆銷售，都讓你離更大的工作室更近一步。\n\n我們很想看看你印出來的作品，也想聽聽你的想法。來我們的 Discord 打聲招呼吧。",
+        "linkLabel": "加入我們的 Discord"
       }
     }
   ],
@@ -55,7 +244,7 @@
         },
         {
           "type": "new",
-          "text": "Play in English, Turkish or Polish."
+          "text": "Play in 30 languages."
         }
       ],
       "tr": {
@@ -66,7 +255,7 @@
           "İşin büyüdükçe yeni yazıcılar ve filament al.",
           "Arızalanan yazıcı kafalarını tamir tezgâhında onar.",
           "Kredi çek, ilk atölyeni kirala ve onu çalıştıracak birini işe al.",
-          "İngilizce, Türkçe ya da Lehçe oyna."
+          "30 dilde oyna."
         ]
       },
       "pl": {
@@ -77,7 +266,304 @@
           "Kupuj nowe drukarki i filamenty, gdy firma rośnie.",
           "Naprawiaj zepsute głowice drukarek na stole naprawczym.",
           "Weź pożyczkę, wynajmij pierwszy warsztat i zatrudnij pracownika, który go poprowadzi.",
-          "Graj po angielsku, turecku lub polsku."
+          "Graj w 30 językach."
+        ]
+      },
+      "fr": {
+        "title": "Première démo publique",
+        "changes": [
+          "Commence dans un petit garage avec une imprimante et un tutoriel pour te guider.",
+          "Découpe des modèles, regarde chaque couche s'imprimer et expédie les commandes avant la date limite.",
+          "Achète de nouvelles imprimantes et du filament à mesure que ton affaire grandit.",
+          "Répare les têtes d'impression en panne à l'établi de réparation.",
+          "Contracte un prêt, loue ton premier atelier et embauche un employé pour le faire tourner.",
+          "Joue en 30 langues."
+        ]
+      },
+      "de": {
+        "title": "Erste öffentliche Demo",
+        "changes": [
+          "Starte in einer kleinen Garage mit einem Drucker und einem Tutorial, das dich anleitet.",
+          "Slice Modelle, schau zu, wie jede Schicht gedruckt wird, und versende Bestellungen vor Ablauf der Frist.",
+          "Kaufe neue Drucker und Filament, während dein Betrieb wächst.",
+          "Repariere defekte Druckköpfe am Reparaturtisch.",
+          "Nimm einen Kredit auf, miete deine erste Werkstatt und stelle eine Werkstatthilfe ein, die sie am Laufen hält.",
+          "Spielbar in 30 Sprachen."
+        ]
+      },
+      "es": {
+        "title": "Primera demo pública",
+        "changes": [
+          "Empieza en un pequeño garaje con una sola impresora y un tutorial que te guía.",
+          "Lamina modelos, mira cómo se imprime cada capa y envía los pedidos antes de la fecha límite.",
+          "Compra nuevas impresoras y filamento a medida que crece tu negocio.",
+          "Repara cabezales de impresora averiados en el banco de reparación.",
+          "Pide un préstamo, alquila tu primer taller y contrata a un ayudante para que lo gestione.",
+          "Juega en 30 idiomas."
+        ]
+      },
+      "es_419": {
+        "title": "Primera demo pública",
+        "changes": [
+          "Empieza en un pequeño garaje con una sola impresora y un tutorial que te guía.",
+          "Lamina modelos, mira cómo se imprime cada capa y envía los pedidos antes de la fecha límite.",
+          "Compra nuevas impresoras y filamento a medida que crece tu negocio.",
+          "Repara cabezales de impresión averiados en el banco de reparación.",
+          "Pide un préstamo, alquila tu primer taller y contrata a un ayudante que se encargue de él.",
+          "Juega en 30 idiomas."
+        ]
+      },
+      "pt_BR": {
+        "title": "Primeira demo pública",
+        "changes": [
+          "Comece em uma pequena garagem, com uma impressora e um tutorial para guiar você.",
+          "Fatie modelos, veja cada camada sendo impressa e envie os pedidos antes do prazo.",
+          "Compre novas impressoras e filamentos conforme seu negócio cresce.",
+          "Conserte cabeçotes de impressora quebrados na bancada de conserto.",
+          "Faça um empréstimo, alugue sua primeira oficina e contrate um ajudante para cuidar dela.",
+          "Jogue em 30 idiomas."
+        ]
+      },
+      "pt_PT": {
+        "title": "Primeira demo pública",
+        "changes": [
+          "Começa numa pequena garagem com uma impressora e um tutorial que te orienta.",
+          "Fatia modelos, vê cada camada a ser impressa e envia as encomendas antes do prazo.",
+          "Compra novas impressoras e filamento à medida que o teu negócio cresce.",
+          "Repara cabeças de impressão avariadas na bancada de reparação.",
+          "Pede um empréstimo, arrenda a tua primeira oficina e contrata um ajudante para tratar dela.",
+          "Joga em 30 idiomas."
+        ]
+      },
+      "it": {
+        "title": "Prima demo pubblica",
+        "changes": [
+          "Inizia in un piccolo garage con una stampante e un tutorial che ti guida.",
+          "Fai lo slicing dei modelli, guarda la stampa layer dopo layer e spedisci gli ordini prima della scadenza.",
+          "Compra nuove stampanti e filamento man mano che la tua attività cresce.",
+          "Ripara le testine di stampa guaste al banco riparazioni.",
+          "Chiedi un prestito, affitta il tuo primo laboratorio e assumi un aiutante che lo gestisca.",
+          "Gioca in 30 lingue."
+        ]
+      },
+      "nl": {
+        "title": "Eerste openbare demo",
+        "changes": [
+          "Begin in een kleine garage met één printer en een tutorial die je op weg helpt.",
+          "Slice modellen, kijk hoe elke laag wordt geprint en verzend bestellingen vóór de deadline.",
+          "Koop nieuwe printers en filament naarmate je bedrijf groeit.",
+          "Repareer kapotte printkoppen aan de reparatietafel.",
+          "Sluit een lening af, huur je eerste werkplaats en neem een medewerker aan die de boel draaiende houdt.",
+          "Speel in 30 talen."
+        ]
+      },
+      "da": {
+        "title": "Første offentlige demo",
+        "changes": [
+          "Start i en lille garage med én printer og en tutorial, der guider dig.",
+          "Slice modeller, se hvert lag blive printet, og send ordrer inden fristen.",
+          "Køb nye printere og filament, efterhånden som forretningen vokser.",
+          "Reparer defekte printhoveder ved reparationsbordet.",
+          "Tag et lån, lej dit første værksted, og ansæt en hjælper til at drive det.",
+          "Spil på 30 sprog."
+        ]
+      },
+      "no": {
+        "title": "Første offentlige demo",
+        "changes": [
+          "Start i en liten garasje med én printer og en opplæring som viser deg veien.",
+          "Slice modeller, se hvert lag bli printet og send bestillinger før fristen.",
+          "Kjøp nye printere og filament etter hvert som bedriften din vokser.",
+          "Reparer ødelagte printhoder på reparasjonsbenken.",
+          "Ta opp et lån, lei ditt første verksted og ansett en medarbeider til å drive det.",
+          "Spill på 30 språk."
+        ]
+      },
+      "sv": {
+        "title": "Första offentliga demoversionen",
+        "changes": [
+          "Börja i ett litet garage med en skrivare och en guide som visar vägen.",
+          "Slica modeller, se varje lager skrivas ut och skicka beställningar innan tiden går ut.",
+          "Köp nya skrivare och filament i takt med att verksamheten växer.",
+          "Laga trasiga skrivhuvuden vid reparationsbänken.",
+          "Ta ett lån, hyr din första verkstad och anställ en medarbetare som sköter den.",
+          "Spela på 30 språk."
+        ]
+      },
+      "fi": {
+        "title": "Ensimmäinen julkinen demo",
+        "changes": [
+          "Aloita pienessä autotallissa yhdellä tulostimella opastuksen johdolla.",
+          "Viipaloi malleja, seuraa jokaisen kerroksen tulostumista ja lähetä tilaukset ennen määräaikaa.",
+          "Osta uusia tulostimia ja filamenttia, kun yrityksesi kasvaa.",
+          "Korjaa rikkinäisiä tulostuspäitä korjauspöydällä.",
+          "Ota laina, vuokraa ensimmäinen pajasi ja palkkaa työntekijä pyörittämään sitä.",
+          "Pelaa 30 kielellä."
+        ]
+      },
+      "cs": {
+        "title": "První veřejné demo",
+        "changes": [
+          "Začni v malé garáži s jednou tiskárnou a tutoriálem, který tě vším provede.",
+          "Slicuj modely, sleduj, jak se tiskne každá vrstva, a odesílej objednávky do termínu.",
+          "Kupuj nové tiskárny a filament, jak tvoje firma roste.",
+          "Opravuj rozbité tiskové hlavy na stole na opravy.",
+          "Vezmi si půjčku, pronajmi si první dílnu a najmi pracovníka, který ji povede.",
+          "Hraj ve 30 jazycích."
+        ]
+      },
+      "hu": {
+        "title": "Első nyilvános demó",
+        "changes": [
+          "Kezdj egy kis garázsban egyetlen nyomtatóval és egy bevezetővel, ami eligazít.",
+          "Szeletelj modelleket, kövesd rétegről rétegre a nyomtatást, és add fel a rendeléseket a határidő előtt.",
+          "Vegyél új nyomtatókat és filamentet, ahogy nő a vállalkozásod.",
+          "Javítsd meg a meghibásodott nyomtatófejeket a szerelőpadon.",
+          "Vegyél fel hitelt, béreld ki az első műhelyedet, és alkalmazz egy dolgozót, aki működteti.",
+          "Játssz 30 nyelven."
+        ]
+      },
+      "ro": {
+        "title": "Primul demo public",
+        "changes": [
+          "Începe într-un garaj mic, cu o singură imprimantă și un tutorial care te ghidează.",
+          "Feliază modele, urmărește cum se printează fiecare strat și expediază comenzile înainte de termen.",
+          "Cumpără imprimante noi și filament pe măsură ce afacerea ta crește.",
+          "Repară capetele de printare defecte la bancul de reparații.",
+          "Ia un credit, închiriază primul tău atelier și angajează un lucrător care să se ocupe de el.",
+          "Joacă în 30 de limbi."
+        ]
+      },
+      "id_ID": {
+        "title": "Demo publik pertama",
+        "changes": [
+          "Mulai di sebuah garasi kecil dengan satu printer dan tutorial yang memandumu.",
+          "Slice model, lihat tiap layer tercetak, dan kirim pesanan sebelum tenggatnya.",
+          "Beli printer dan filamen baru seiring bisnismu berkembang.",
+          "Perbaiki print head yang rusak di meja reparasi.",
+          "Ambil pinjaman, sewa bengkel pertamamu, dan rekrut pekerja untuk menjalankannya.",
+          "Mainkan dalam 30 bahasa."
+        ]
+      },
+      "ms": {
+        "title": "Demo awam pertama",
+        "changes": [
+          "Bermula di sebuah garaj kecil dengan satu pencetak dan tutorial yang membimbing anda.",
+          "Slice model, tonton setiap lapisan dicetak dan hantar pesanan sebelum tarikh akhir.",
+          "Beli pencetak dan filamen baharu apabila perniagaan anda berkembang.",
+          "Baiki kepala cetak yang rosak di meja pembaikan.",
+          "Ambil pinjaman, sewa bengkel pertama anda dan upah pekerja untuk menguruskannya.",
+          "Main dalam 30 bahasa."
+        ]
+      },
+      "vi": {
+        "title": "Bản demo công khai đầu tiên",
+        "changes": [
+          "Bắt đầu trong một gara nhỏ với một máy in và phần hướng dẫn chỉ bạn từng bước.",
+          "Cắt lớp mô hình, xem từng lớp được in ra và gửi đơn hàng trước hạn.",
+          "Mua thêm máy in và sợi nhựa khi việc kinh doanh phát triển.",
+          "Sửa đầu in bị hỏng tại bàn sửa chữa.",
+          "Vay tiền, thuê xưởng đầu tiên và tuyển nhân viên để vận hành xưởng.",
+          "Chơi bằng 30 ngôn ngữ."
+        ]
+      },
+      "bg": {
+        "title": "Първо публично демо",
+        "changes": [
+          "Започни в малък гараж с един принтер и обучение, което те напътства.",
+          "Слайсвай модели, гледай как се печата всеки слой и изпращай поръчките преди срока.",
+          "Купувай нови принтери и филамент, докато бизнесът ти расте.",
+          "Поправяй повредени печатащи глави на тезгяха за ремонт.",
+          "Изтегли кредит, наеми първата си работилница и назначи работник, който да я движи.",
+          "Играй на 30 езика."
+        ]
+      },
+      "ru": {
+        "title": "Первая публичная демоверсия",
+        "changes": [
+          "Начни в маленьком гараже с одним принтером — обучение подскажет, что делать.",
+          "Нарезай модели, смотри, как печатается каждый слой, и отправляй заказы в срок.",
+          "Покупай новые принтеры и филамент по мере роста бизнеса.",
+          "Чини сломанные печатающие головки на ремонтном верстаке.",
+          "Возьми кредит, арендуй первую мастерскую и найми работника, который будет за неё отвечать.",
+          "Играй на 30 языках."
+        ]
+      },
+      "uk": {
+        "title": "Перше публічне демо",
+        "changes": [
+          "Почни в маленькому гаражі з одним принтером, а навчання допоможе розібратися.",
+          "Нарізай моделі, спостерігай за друком кожного шару й відправляй замовлення вчасно.",
+          "Купуй нові принтери й філамент, коли твоя справа розростається.",
+          "Лагодь зламані друкувальні голови на ремонтному верстаку.",
+          "Візьми кредит, орендуй першу майстерню й найми працівника, який нею займатиметься.",
+          "Грай 30 мовами."
+        ]
+      },
+      "el": {
+        "title": "Πρώτο δημόσιο demo",
+        "changes": [
+          "Ξεκίνα σε ένα μικρό γκαράζ με έναν εκτυπωτή και έναν οδηγό που σου δείχνει τον δρόμο.",
+          "Τεμάχισε μοντέλα, δες κάθε στρώση να τυπώνεται και στείλε τις παραγγελίες πριν λήξει η προθεσμία.",
+          "Αγόρασε νέους εκτυπωτές και νήμα καθώς μεγαλώνει η επιχείρησή σου.",
+          "Επισκεύασε χαλασμένες κεφαλές εκτυπωτών στον πάγκο επισκευής.",
+          "Πάρε δάνειο, νοίκιασε το πρώτο σου εργαστήριο και προσέλαβε βοηθό για να το τρέχει.",
+          "Παίξε σε 30 γλώσσες."
+        ]
+      },
+      "th": {
+        "title": "เดโม​สาธารณะ​ครั้ง​แรก",
+        "changes": [
+          "เริ่มต้น​ใน​โรงรถ​เล็กๆ พร้อม​เครื่องพิมพ์​หนึ่ง​เครื่อง​และ​บทสอน​ที่​คอย​นำทาง",
+          "สไลซ์​โมเดล ดู​ชิ้นงาน​ค่อยๆ ขึ้นรูป​ทีละ​เลเยอร์ แล้ว​ส่ง​คำสั่งซื้อ​ให้​ทัน​กำหนด",
+          "ซื้อ​เครื่องพิมพ์​ใหม่​และ​ฟิลาเมนต์​เพิ่ม​เมื่อ​กิจการ​เติบโต",
+          "นำ​หัวพิมพ์​ที่​เสีย​มา​ซ่อม​ที่​โต๊ะ​ซ่อม",
+          "กู้​เงิน เช่า​เวิร์กช็อป​แห่ง​แรก แล้ว​จ้าง​ผู้ช่วย​มา​ดูแล",
+          "เล่น​ได้ 30 ภาษา"
+        ]
+      },
+      "ja": {
+        "title": "初の公開体験版",
+        "changes": [
+          "1台のプリンターがある小さなガレージから、チュートリアルの案内つきでスタートします。",
+          "モデルをスライスし、1層ずつ印刷されていく様子を見守って、期限までに注文を発送します。",
+          "事業の成長に合わせて、新しいプリンターやフィラメントを購入できます。",
+          "故障したプリントヘッドを修理台で直せます。",
+          "ローンを組んで最初の工房を借り、工房を任せる作業スタッフを雇えます。",
+          "30言語でプレイできます。"
+        ]
+      },
+      "ko": {
+        "title": "첫 공개 데모",
+        "changes": [
+          "프린터 한 대가 있는 작은 차고에서 튜토리얼의 안내를 받으며 시작하세요.",
+          "모델을 슬라이스하고, 레이어가 하나하나 출력되는 모습을 지켜보고, 기한 전에 주문을 발송하세요.",
+          "사업이 커지면 새 프린터와 필라멘트를 구매하세요.",
+          "수리대에서 고장 난 프린터 헤드를 수리하세요.",
+          "대출을 받고, 첫 작업실을 임대하고, 작업실을 맡길 작업자를 고용하세요.",
+          "30개 언어로 플레이하세요."
+        ]
+      },
+      "zh_Hans": {
+        "title": "首个公开试玩版",
+        "changes": [
+          "从一间小车库、一台打印机起步，还有教程一路带你上手。",
+          "切片模型，看着每一层打印成形，赶在截止日期前把订单发出去。",
+          "随着生意壮大，购买新的打印机和耗材。",
+          "在维修台修好故障的打印头。",
+          "申请贷款，租下你的第一间工坊，再雇用一名员工来打理。",
+          "支持30种语言游玩。"
+        ]
+      },
+      "zh_Hant": {
+        "title": "第一個公開試玩版",
+        "changes": [
+          "從一間小車庫、一台列印機起步，還有教學一路帶你上手。",
+          "切片模型，看著每一層列印成形，趕在期限前把訂單出貨。",
+          "隨著生意成長，購買新的列印機和線材。",
+          "在維修台修好故障的列印機噴頭。",
+          "申請貸款，承租你的第一間工作室，再僱用一位助手幫你打理。",
+          "支援 30 種語言。"
         ]
       }
     }
@@ -95,6 +581,114 @@
       "pl": {
         "title": "Własny sklep",
         "summary": "Otwórz sklep w mieście, zapełnij półki i obsługuj klientów."
+      },
+      "fr": {
+        "title": "Ta propre boutique",
+        "summary": "Ouvre une boutique en ville, remplis les étagères et sers tes clients."
+      },
+      "de": {
+        "title": "Dein eigener Laden",
+        "summary": "Eröffne einen Laden in der Stadt, fülle die Regale und bediene deine Kundschaft."
+      },
+      "es": {
+        "title": "Tu propia tienda",
+        "summary": "Abre una tienda en la ciudad, llena los estantes y atiende a los clientes."
+      },
+      "es_419": {
+        "title": "Tu propia tienda",
+        "summary": "Abre una tienda en la ciudad, llena los estantes y atiende a los clientes."
+      },
+      "pt_BR": {
+        "title": "Sua própria loja",
+        "summary": "Abra uma loja na cidade, abasteça as prateleiras e atenda os clientes."
+      },
+      "pt_PT": {
+        "title": "A tua própria loja",
+        "summary": "Abre uma loja na cidade, enche as prateleiras e atende clientes."
+      },
+      "it": {
+        "title": "Il tuo negozio",
+        "summary": "Apri un negozio in città, riempi gli scaffali e servi i clienti."
+      },
+      "nl": {
+        "title": "Jouw eigen winkel",
+        "summary": "Open een winkel in de stad, vul de schappen en help je klanten."
+      },
+      "da": {
+        "title": "Din egen butik",
+        "summary": "Åbn en butik i byen, fyld hylderne, og betjen kunderne."
+      },
+      "no": {
+        "title": "Din egen butikk",
+        "summary": "Åpne en butikk i byen, fyll hyllene og betjen kundene."
+      },
+      "sv": {
+        "title": "Din egen butik",
+        "summary": "Öppna en butik i stan, fyll på hyllorna och ta hand om kunderna."
+      },
+      "fi": {
+        "title": "Oma myymälä",
+        "summary": "Avaa myymälä kaupungissa, täytä hyllyt ja palvele asiakkaita."
+      },
+      "cs": {
+        "title": "Vlastní obchod",
+        "summary": "Otevři si obchod ve městě, zaplň police a obsluhuj zákazníky."
+      },
+      "hu": {
+        "title": "Saját boltod",
+        "summary": "Nyiss boltot a városban, töltsd fel a polcokat, és szolgáld ki a vásárlókat."
+      },
+      "ro": {
+        "title": "Propriul tău magazin",
+        "summary": "Deschide un magazin în oraș, umple rafturile și servește clienții."
+      },
+      "id_ID": {
+        "title": "Tokomu sendiri",
+        "summary": "Buka toko di kota, isi raknya, dan layani pelanggan."
+      },
+      "ms": {
+        "title": "Kedai anda sendiri",
+        "summary": "Buka kedai di bandar, isi rak dan layan pelanggan."
+      },
+      "vi": {
+        "title": "Cửa hàng của riêng bạn",
+        "summary": "Mở cửa hàng trong thành phố, xếp hàng lên kệ và phục vụ khách."
+      },
+      "bg": {
+        "title": "Собствен магазин",
+        "summary": "Отвори магазин в града, зареди рафтовете и обслужвай клиенти."
+      },
+      "ru": {
+        "title": "Свой магазин",
+        "summary": "Открой магазин в городе, заполняй полки и обслуживай покупателей."
+      },
+      "uk": {
+        "title": "Власний магазин",
+        "summary": "Відкрий магазин у місті, наповни полиці й обслуговуй клієнтів."
+      },
+      "el": {
+        "title": "Το δικό σου κατάστημα",
+        "summary": "Άνοιξε κατάστημα στην πόλη, γέμισε τα ράφια και εξυπηρέτησε τους πελάτες."
+      },
+      "th": {
+        "title": "ร้าน​ของ​คุณ​เอง",
+        "summary": "เปิด​ร้าน​ใน​เมือง เติม​ของ​ขึ้น​ชั้นวาง และ​บริการ​ลูกค้า"
+      },
+      "ja": {
+        "title": "自分の店",
+        "summary": "街に店を開き、棚に商品を並べて接客できるようになります。"
+      },
+      "ko": {
+        "title": "나만의 매장",
+        "summary": "시내에 매장을 열고, 선반에 상품을 채우고, 손님을 맞이하세요."
+      },
+      "zh_Hans": {
+        "title": "自己的店铺",
+        "summary": "在城里开一家店铺，摆满货架，接待顾客。"
+      },
+      "zh_Hant": {
+        "title": "你自己的店面",
+        "summary": "在城裡開一間店面，把貨架補滿，接待上門的顧客。"
       }
     },
     {
@@ -109,6 +703,114 @@
       "pl": {
         "title": "Więcej drukarek",
         "summary": "Maszyny oznaczone w PrintHouse jako Wkrótce trafią do sklepu."
+      },
+      "fr": {
+        "title": "Plus d'imprimantes",
+        "summary": "Les machines marquées « Bientôt disponible » sur PrintHouse rejoignent le catalogue."
+      },
+      "de": {
+        "title": "Mehr Drucker",
+        "summary": "Die Maschinen, die bei PrintHouse als „Demnächst verfügbar“ markiert sind, kommen ins Sortiment."
+      },
+      "es": {
+        "title": "Más impresoras",
+        "summary": "Las máquinas marcadas como «Próximamente» en PrintHouse llegan a la tienda."
+      },
+      "es_419": {
+        "title": "Más impresoras",
+        "summary": "Las máquinas marcadas como “Próximamente” en PrintHouse llegan a la tienda."
+      },
+      "pt_BR": {
+        "title": "Mais impressoras",
+        "summary": "As máquinas marcadas como “Em breve” na PrintHouse chegam à loja."
+      },
+      "pt_PT": {
+        "title": "Mais impressoras",
+        "summary": "As máquinas marcadas como «Em breve» na PrintHouse chegam à loja."
+      },
+      "it": {
+        "title": "Più stampanti",
+        "summary": "Le macchine segnate come “Prossimamente” su PrintHouse entrano in catalogo."
+      },
+      "nl": {
+        "title": "Meer printers",
+        "summary": "De machines met het label “Binnenkort” op PrintHouse komen ook te koop."
+      },
+      "da": {
+        "title": "Flere printere",
+        "summary": "Maskinerne, der er markeret med »Kommer snart« på PrintHouse, bliver sat til salg."
+      },
+      "no": {
+        "title": "Flere printere",
+        "summary": "Maskinene merket «Kommer snart» hos PrintHouse blir lagt ut for salg."
+      },
+      "sv": {
+        "title": "Fler skrivare",
+        "summary": "Maskinerna märkta ”Kommer snart” på PrintHouse läggs till i sortimentet."
+      },
+      "fi": {
+        "title": "Lisää tulostimia",
+        "summary": "Koneet, joiden kohdalla PrintHouse-kaupassa lukee ”Tulossa pian”, tulevat myyntiin."
+      },
+      "cs": {
+        "title": "Další tiskárny",
+        "summary": "Stroje označené na webu PrintHouse jako „Již brzy“ půjdou do prodeje."
+      },
+      "hu": {
+        "title": "Több nyomtató",
+        "summary": "A PrintHouse oldalon „Hamarosan” jelöléssel szereplő gépek is bekerülnek a kínálatba."
+      },
+      "ro": {
+        "title": "Mai multe imprimante",
+        "summary": "Imprimantele marcate „În curând” pe PrintHouse intră la vânzare."
+      },
+      "id_ID": {
+        "title": "Lebih banyak printer",
+        "summary": "Mesin yang bertanda “Segera hadir” di PrintHouse akan mulai dijual."
+      },
+      "ms": {
+        "title": "Lebih banyak pencetak",
+        "summary": "Mesin bertanda “Akan datang” di PrintHouse akan mula dijual."
+      },
+      "vi": {
+        "title": "Nhiều máy in hơn",
+        "summary": "Các máy gắn nhãn “Sắp ra mắt” trên PrintHouse sẽ được mở bán."
+      },
+      "bg": {
+        "title": "Още принтери",
+        "summary": "Машините с надпис „Очаквай скоро“ в PrintHouse ще влязат в продажба."
+      },
+      "ru": {
+        "title": "Больше принтеров",
+        "summary": "Принтеры с пометкой «Скоро» на PrintHouse поступят в продажу."
+      },
+      "uk": {
+        "title": "Більше принтерів",
+        "summary": "Принтери з позначкою «Незабаром» на PrintHouse надійдуть у продаж."
+      },
+      "el": {
+        "title": "Περισσότεροι εκτυπωτές",
+        "summary": "Τα μηχανήματα με την ένδειξη «Έρχεται σύντομα» στο PrintHouse μπαίνουν σε πώληση."
+      },
+      "th": {
+        "title": "เครื่องพิมพ์​เพิ่มเติม",
+        "summary": "เครื่องพิมพ์​ที่​ขึ้น​ว่า “เร็วๆ นี้” จะ​มา​วาง​ขาย​ที่ PrintHouse"
+      },
+      "ja": {
+        "title": "プリンターの追加",
+        "summary": "PrintHouseで「近日公開」と表示されているマシンが購入できるようになります。"
+      },
+      "ko": {
+        "title": "더 많은 프린터",
+        "summary": "PrintHouse에서 ‘출시 예정’으로 표시된 장비가 스토어에 추가돼요."
+      },
+      "zh_Hans": {
+        "title": "更多打印机",
+        "summary": "PrintHouse中标着“即将推出”的机器将陆续上架。"
+      },
+      "zh_Hant": {
+        "title": "更多列印機",
+        "summary": "PrintHouse 上標示「即將推出」的機器將陸續上架。"
       }
     },
     {
@@ -123,6 +825,114 @@
       "pl": {
         "title": "Większe warsztaty",
         "summary": "Przeprowadź się do większych lokali z miejscem na więcej maszyn."
+      },
+      "fr": {
+        "title": "Des ateliers plus grands",
+        "summary": "Emménage dans des locaux plus vastes, avec de la place pour davantage de machines."
+      },
+      "de": {
+        "title": "Größere Werkstätten",
+        "summary": "Zieh in größere Räume mit Platz für mehr Maschinen."
+      },
+      "es": {
+        "title": "Talleres más grandes",
+        "summary": "Múdate a locales más amplios con sitio para más máquinas."
+      },
+      "es_419": {
+        "title": "Talleres más grandes",
+        "summary": "Múdate a locales más amplios con espacio para más máquinas."
+      },
+      "pt_BR": {
+        "title": "Oficinas maiores",
+        "summary": "Mude-se para espaços maiores, com lugar para mais máquinas."
+      },
+      "pt_PT": {
+        "title": "Oficinas maiores",
+        "summary": "Muda-te para espaços maiores, com lugar para mais máquinas."
+      },
+      "it": {
+        "title": "Laboratori più grandi",
+        "summary": "Trasferisciti in locali più grandi, con spazio per più macchine."
+      },
+      "nl": {
+        "title": "Grotere werkplaatsen",
+        "summary": "Verhuis naar grotere panden met ruimte voor meer machines."
+      },
+      "da": {
+        "title": "Større værksteder",
+        "summary": "Flyt ind i større lokaler med plads til flere maskiner."
+      },
+      "no": {
+        "title": "Større verksteder",
+        "summary": "Flytt inn i større lokaler med plass til flere maskiner."
+      },
+      "sv": {
+        "title": "Större verkstäder",
+        "summary": "Flytta till större lokaler med plats för fler maskiner."
+      },
+      "fi": {
+        "title": "Isommat pajat",
+        "summary": "Muuta isompiin tiloihin, joihin mahtuu enemmän koneita."
+      },
+      "cs": {
+        "title": "Větší dílny",
+        "summary": "Přestěhuj se do větších prostor s místem pro další stroje."
+      },
+      "hu": {
+        "title": "Nagyobb műhelyek",
+        "summary": "Költözz nagyobb helyiségekbe, ahol több gép is elfér."
+      },
+      "ro": {
+        "title": "Ateliere mai mari",
+        "summary": "Mută-te în spații mai mari, cu loc pentru mai multe aparate."
+      },
+      "id_ID": {
+        "title": "Bengkel lebih besar",
+        "summary": "Pindah ke tempat yang lebih luas dengan ruang untuk lebih banyak mesin."
+      },
+      "ms": {
+        "title": "Bengkel lebih besar",
+        "summary": "Pindah ke ruang lebih luas dengan tempat untuk lebih banyak mesin."
+      },
+      "vi": {
+        "title": "Xưởng lớn hơn",
+        "summary": "Chuyển đến mặt bằng rộng hơn, đủ chỗ cho nhiều máy hơn."
+      },
+      "bg": {
+        "title": "По-големи работилници",
+        "summary": "Премести се в по-големи помещения с място за повече машини."
+      },
+      "ru": {
+        "title": "Мастерские побольше",
+        "summary": "Переезжай в просторные помещения, где хватит места для новых принтеров."
+      },
+      "uk": {
+        "title": "Більші майстерні",
+        "summary": "Переїжджай у просторіші приміщення, де вміститься більше обладнання."
+      },
+      "el": {
+        "title": "Μεγαλύτερα εργαστήρια",
+        "summary": "Μετακόμισε σε μεγαλύτερους χώρους που χωράνε περισσότερα μηχανήματα."
+      },
+      "th": {
+        "title": "เวิร์กช็อป​ที่​ใหญ่​ขึ้น",
+        "summary": "ย้าย​ไป​พื้นที่​ที่​ใหญ่​ขึ้น​และ​มี​ที่วาง​เครื่อง​มาก​ขึ้น"
+      },
+      "ja": {
+        "title": "より広い工房",
+        "summary": "より多くのマシンを置ける、広い物件に移れるようになります。"
+      },
+      "ko": {
+        "title": "더 큰 작업실",
+        "summary": "더 많은 장비를 들일 수 있는 넓은 공간으로 옮겨 가세요."
+      },
+      "zh_Hans": {
+        "title": "更大的工坊",
+        "summary": "搬进更宽敞的场地，容纳更多机器。"
+      },
+      "zh_Hant": {
+        "title": "更大的工作室",
+        "summary": "搬進更寬敞的空間，放得下更多機器。"
       }
     },
     {
@@ -137,6 +947,114 @@
       "pl": {
         "title": "Więcej rodzajów filamentu",
         "summary": "Drukuj z ABS, TPU, PETG i nie tylko."
+      },
+      "fr": {
+        "title": "Plus de types de filament",
+        "summary": "Imprime en ABS, TPU, PETG et plus encore."
+      },
+      "de": {
+        "title": "Mehr Filamentsorten",
+        "summary": "Drucke mit ABS, TPU, PETG und mehr."
+      },
+      "es": {
+        "title": "Más tipos de filamento",
+        "summary": "Imprime con ABS, TPU, PETG y más."
+      },
+      "es_419": {
+        "title": "Más tipos de filamento",
+        "summary": "Imprime con ABS, TPU, PETG y más."
+      },
+      "pt_BR": {
+        "title": "Mais tipos de filamento",
+        "summary": "Imprima com ABS, TPU, PETG e muito mais."
+      },
+      "pt_PT": {
+        "title": "Mais tipos de filamento",
+        "summary": "Imprime com ABS, TPU, PETG e muito mais."
+      },
+      "it": {
+        "title": "Più tipi di filamento",
+        "summary": "Stampa in ABS, TPU, PETG e altro ancora."
+      },
+      "nl": {
+        "title": "Meer soorten filament",
+        "summary": "Print met ABS, TPU, PETG en meer."
+      },
+      "da": {
+        "title": "Flere filamenttyper",
+        "summary": "Print med ABS, TPU, PETG og meget mere."
+      },
+      "no": {
+        "title": "Flere filamenttyper",
+        "summary": "Print i ABS, TPU, PETG og mer til."
+      },
+      "sv": {
+        "title": "Fler filamenttyper",
+        "summary": "Skriv ut i ABS, TPU, PETG och mycket mer."
+      },
+      "fi": {
+        "title": "Lisää filamenttityyppejä",
+        "summary": "Tulosta ABS:llä, TPU:lla, PETG:llä ja muilla."
+      },
+      "cs": {
+        "title": "Další druhy filamentu",
+        "summary": "Tiskni z ABS, TPU, PETG a dalších materiálů."
+      },
+      "hu": {
+        "title": "Több filamenttípus",
+        "summary": "Nyomtass ABS-sel, TPU-val, PETG-vel és még sok mással."
+      },
+      "ro": {
+        "title": "Mai multe tipuri de filament",
+        "summary": "Printează cu ABS, TPU, PETG și nu numai."
+      },
+      "id_ID": {
+        "title": "Lebih banyak jenis filamen",
+        "summary": "Cetak dengan ABS, TPU, PETG, dan lainnya."
+      },
+      "ms": {
+        "title": "Lebih banyak jenis filamen",
+        "summary": "Cetak dengan ABS, TPU, PETG dan banyak lagi."
+      },
+      "vi": {
+        "title": "Nhiều loại sợi nhựa hơn",
+        "summary": "In bằng ABS, TPU, PETG và nhiều loại khác."
+      },
+      "bg": {
+        "title": "Още видове филамент",
+        "summary": "Печатай с ABS, TPU, PETG и други."
+      },
+      "ru": {
+        "title": "Больше видов филамента",
+        "summary": "Печатай ABS, TPU, PETG и не только."
+      },
+      "uk": {
+        "title": "Більше видів філаменту",
+        "summary": "Друкуй з ABS, TPU, PETG та інших матеріалів."
+      },
+      "el": {
+        "title": "Περισσότεροι τύποι νήματος",
+        "summary": "Τύπωσε με ABS, TPU, PETG και άλλα υλικά."
+      },
+      "th": {
+        "title": "ประเภท​ฟิลาเมนต์​เพิ่มเติม",
+        "summary": "พิมพ์​ด้วย ABS, TPU, PETG และ​อื่นๆ"
+      },
+      "ja": {
+        "title": "フィラメントの種類追加",
+        "summary": "ABS、TPU、PETGなどで印刷できるようになります。"
+      },
+      "ko": {
+        "title": "더 다양한 필라멘트",
+        "summary": "ABS, TPU, PETG 등 다양한 소재로 출력하세요."
+      },
+      "zh_Hans": {
+        "title": "更多耗材种类",
+        "summary": "使用ABS、TPU、PETG等更多材料打印。"
+      },
+      "zh_Hant": {
+        "title": "更多線材種類",
+        "summary": "使用 ABS、TPU、PETG 等更多線材列印。"
       }
     },
     {
@@ -151,6 +1069,114 @@
       "pl": {
         "title": "Drukuj własne modele",
         "summary": "Wczytaj własne pliki do druku, a potem drukuj, sprzedawaj lub wystawiaj swoje produkty."
+      },
+      "fr": {
+        "title": "Imprime tes propres modèles",
+        "summary": "Charge tes propres fichiers d'impression, puis imprime, vends ou expose tes créations."
+      },
+      "de": {
+        "title": "Eigene Modelle drucken",
+        "summary": "Lade eigene Druckdateien und drucke, verkaufe oder präsentiere dann, was du herstellst."
+      },
+      "es": {
+        "title": "Imprime tus propios modelos",
+        "summary": "Carga tus propios archivos de impresión y luego imprime, vende o expón lo que hagas."
+      },
+      "es_419": {
+        "title": "Imprime tus propios modelos",
+        "summary": "Carga tus propios archivos de impresión y luego imprime, vende o exhibe lo que hagas."
+      },
+      "pt_BR": {
+        "title": "Imprima seus próprios modelos",
+        "summary": "Importe seus próprios arquivos de impressão e depois imprima, venda ou exponha o que criar."
+      },
+      "pt_PT": {
+        "title": "Imprime os teus próprios modelos",
+        "summary": "Carrega os teus ficheiros de impressão e depois imprime, vende ou expõe o que fizeres."
+      },
+      "it": {
+        "title": "Stampa i tuoi modelli",
+        "summary": "Carica i tuoi file di stampa, poi stampa, vendi o esponi le tue creazioni."
+      },
+      "nl": {
+        "title": "Print je eigen modellen",
+        "summary": "Laad je eigen printbestanden en print, verkoop of stal uit wat je maakt."
+      },
+      "da": {
+        "title": "Print dine egne modeller",
+        "summary": "Indlæs dine egne printfiler, og print, sælg eller udstil det, du laver."
+      },
+      "no": {
+        "title": "Print dine egne modeller",
+        "summary": "Last inn egne printfiler, så kan du printe, selge eller stille ut det du lager."
+      },
+      "sv": {
+        "title": "Skriv ut egna modeller",
+        "summary": "Ladda in egna utskriftsfiler och skriv ut, sälj eller visa upp det du skapar."
+      },
+      "fi": {
+        "title": "Tulosta omia mallejasi",
+        "summary": "Tuo omat tulostustiedostosi peliin ja tulosta, myy tai laita esille tekemäsi esineet."
+      },
+      "cs": {
+        "title": "Tiskni vlastní modely",
+        "summary": "Nahraj si vlastní soubory k tisku a své výtvory pak tiskni, prodávej nebo vystavuj."
+      },
+      "hu": {
+        "title": "Saját modellek nyomtatása",
+        "summary": "Töltsd be a saját nyomtatási fájljaidat, aztán nyomtasd ki, add el vagy állítsd ki, amit alkotsz."
+      },
+      "ro": {
+        "title": "Printează-ți propriile modele",
+        "summary": "Încarcă-ți propriile fișiere de printare, apoi printează, vinde sau expune ce creezi."
+      },
+      "id_ID": {
+        "title": "Cetak modelmu sendiri",
+        "summary": "Muat file cetakmu sendiri, lalu cetak, jual, atau pajang hasil karyamu."
+      },
+      "ms": {
+        "title": "Cetak model anda sendiri",
+        "summary": "Muatkan fail cetak anda sendiri, kemudian cetak, jual atau pamerkan hasil buatan anda."
+      },
+      "vi": {
+        "title": "In mô hình của riêng bạn",
+        "summary": "Nhập file in của riêng bạn, rồi in, bán hoặc trưng bày những gì bạn làm ra."
+      },
+      "bg": {
+        "title": "Печатай свои модели",
+        "summary": "Зареди свои файлове за печат, а после печатай, продавай или излагай творенията си."
+      },
+      "ru": {
+        "title": "Печатай свои модели",
+        "summary": "Загружай свои файлы моделей, а потом печатай, продавай или выставляй напоказ то, что получилось."
+      },
+      "uk": {
+        "title": "Друкуй власні моделі",
+        "summary": "Завантажуй свої файли для друку, а тоді друкуй, продавай чи виставляй те, що створиш."
+      },
+      "el": {
+        "title": "Τύπωσε τα δικά σου μοντέλα",
+        "summary": "Φόρτωσε τα δικά σου αρχεία εκτύπωσης και τύπωσε, πούλησε ή βάλε στη βιτρίνα ό,τι φτιάχνεις."
+      },
+      "th": {
+        "title": "พิมพ์​โมเดล​ของ​คุณ​เอง",
+        "summary": "โหลด​ไฟล์​สำหรับ​พิมพ์​ของ​คุณ​เอง แล้ว​พิมพ์ ขาย หรือ​จัดแสดง​ผลงาน​ของ​คุณ"
+      },
+      "ja": {
+        "title": "自作モデルの印刷",
+        "summary": "手持ちの印刷データを読み込んで印刷し、できたものを販売したり飾ったりできるようになります。"
+      },
+      "ko": {
+        "title": "나만의 모델 출력",
+        "summary": "내 출력 파일을 불러와서 출력하고, 완성품을 판매하거나 진열하세요."
+      },
+      "zh_Hans": {
+        "title": "打印自己的模型",
+        "summary": "导入你自己的打印文件，打印、出售或展示你的作品。"
+      },
+      "zh_Hant": {
+        "title": "列印你自己的模型",
+        "summary": "載入你自己的列印檔案，再列印、販售或展示你的作品。"
       }
     }
   ],

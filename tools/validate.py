@@ -10,9 +10,11 @@ from urllib.parse import urlparse
 DATE_FORMATS = ["%Y-%m-%d", "%Y-%m-%dT%H:%M", "%Y-%m-%dT%H:%MZ", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%SZ",
                 "%Y-%m-%dT%H:%M:%S.%fZ"]
 LIMITS = {"category": 32, "title": 120, "summary": 280, "body": 8000, "linkLabel": 40}
+# Translated blocks: the game's language codes with "-" as "_"; Indonesian is "id_ID" ("id" is the item id).
+LANGUAGES = ("tr", "pl", "fr", "de", "es", "es_419", "pt_BR", "pt_PT", "it", "nl", "da", "no", "sv", "fi", "cs", "hu", "ro",
+             "id_ID", "ms", "vi", "bg", "ru", "uk", "el", "th", "ja", "ko", "zh_Hans", "zh_Hant")
 KNOWN = {"id", "pinned", "date", "category", "title", "summary", "body", "image", "link", "linkLabel", "start", "end",
-         "minVersion", "maxVersion", "tr", "pl"}
-LANGUAGES = ("tr", "pl")
+         "minVersion", "maxVersion", *LANGUAGES}
 # Products the main menu printer can print in the current game build (Assets/6_SO/UI/MenuShowcase.asset).
 SHOWCASE_MODELS = {"HW-001", "BM-055", "BM-026", "BM-105", "BM-109", "BM-021", "BM-031"}
 SHOWCASE_KNOWN = {"model", "color", "theme", "start", "end"}
@@ -75,9 +77,9 @@ def check_showcase(data, errors, warnings):
                 errors.append(f'{where}: "end" is before "start".')
 
 
-NOTE_KNOWN = {"version", "date", "title", "changes", "tr", "pl"}
+NOTE_KNOWN = {"version", "date", "title", "changes", *LANGUAGES}
 CHANGE_TYPES = {"new", "improved", "fixed"}
-ROADMAP_KNOWN = {"id", "title", "summary", "status", "version", "tr", "pl"}
+ROADMAP_KNOWN = {"id", "title", "summary", "status", "version", *LANGUAGES}
 ROADMAP_STATUSES = {"planned", "progress", "released"}
 
 
